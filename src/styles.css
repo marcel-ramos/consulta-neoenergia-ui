@@ -1,0 +1,78 @@
+.App, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 8px 40px;
+}
+
+.App-logo {
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  flex: 1;
+  padding: 32px 40px;
+}
+
+.search {
+  display: 'flex';
+  flex-direction: row;
+  padding-bottom: 24px;
+}
+
+#local, .code, .submit {
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  width: 200px;
+  margin-right: 40px;
+  color: #3d3d3d;
+}
+
+#local:focus, .code:focus, #local:active, .code:active {
+  border-color: transparent;
+}
+
+.submit {
+  background-color: #333;
+  color: white;
+  width: auto;
+  padding: 8px 24px;
+}
+
+.content {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
